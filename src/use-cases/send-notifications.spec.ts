@@ -10,7 +10,7 @@ const notificationsRepository = {
 }
 
 describe('Send notification', () => {
-  it('shoul be able to send notification', async () => {
+  it('should be able to send notification', async () => {
     const sendNotification = new SendNotification(notificationsRepository);
 
     await sendNotification.execute({
