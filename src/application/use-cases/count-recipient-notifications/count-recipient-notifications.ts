@@ -1,4 +1,4 @@
-import { NotificationsRepository } from "../repositories/notifications-repositoriy";
+import { NotificationsRepository } from "@application/repositories/notifications-repositoriy";
 import { Injectable } from "@nestjs/common";
 
 interface CountRecipientNotificationRequest {
